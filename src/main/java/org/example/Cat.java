@@ -5,5 +5,7 @@ import lombok.With;
 @With
 public record Cat(
         String name,
-        int age) {
+        int age,
+        String color,
+        String breed) {
 }
